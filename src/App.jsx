@@ -1,12 +1,9 @@
 import './styles/GlobalStyles.scss';
+import Login from './Pages/Login/index.jsx';
 
 function App() {
-
   return (
-    <>
-      <h1>Ola</h1>
-    </>
+    <Login />
   )
 }
-
 export default App
