@@ -24,12 +24,43 @@
         }
     }
 
-    .barraFormulario {
-        flex: 1;
-    }
-
     .barraFormulario{
-        
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+         h2{
+            padding: 1rem;
+            font-size: 3rem;
+         }
+
+         .formulario{
+            margin-top: 5em;
+
+            .email{
+                margin: 0;
+                padding-bottom: 1rem;
+
+                .labelEmail{
+                    margin-bottom: 5px;
+                }
+            }
+            .senha{
+                margin: 0;
+                padding-bottom: 1rem;
+
+                .labelSenha{
+                    margin-bottom: 5px;
+                }
+
+                .esqueciSenha{
+                    margin-top: 5px;
+                }
+            }
+
+         }
+
     }
 
 }

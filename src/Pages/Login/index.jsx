@@ -11,16 +11,16 @@ export default function Login() {
             <img src={logo} alt="logo AgroView" className={styles.logo} />
         </div>
             <div className={styles.barraFormulario}>
-                <h2>Login</h2>
                 <form className={styles.formulario} >
+                    <h2>Login</h2>
                     <div className={styles.email} >
-                        <p>Email</p>
+                        <p className={styles.labelEmail} >Email</p>
                         <InputCustom placeholder="Endereço de email" type="email" required />
                     </div>
                     <div className={styles.senha}>
-                        <p>Senha</p>
+                        <p className={styles.labelSenha} >Senha</p>
                         <InputCustom placeholder="Informe a senha" type="password" required />
-                        <p>Esqueci minha senha</p>
+                        <p className={styles.esqueciSenha} >Esqueci minha senha</p>
                     </div>
                     <button className={styles.botaoEnviar} type="submit">Entrar</button>
                     <p className={styles.registrar} >Não possui conta? Registre-se</p>
