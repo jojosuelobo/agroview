@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './ButtonCustom.module.scss'
 
-export default function ButtonCustom() {
+export default function ButtonCustom( {text} ) {
   return (
-    <button type='submit' className={styles.botao} >Entrar</button>
+    <button type='submit' className={styles.botao} >{text}</button>
   )
 }

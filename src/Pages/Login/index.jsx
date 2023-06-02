@@ -23,8 +23,8 @@ export default function Login() {
                         <InputCustom placeholder="Informe a senha" type="password" required />
                         <p className={styles.esqueciSenha}> <a> Esqueci minha senha</a></p>
                     </div>
-                    <ButtonCustom/>
-                    <p className={styles.registrar} >Não possui conta? <a className={styles.registrarSe} >Registre-se</a></p>
+                    <ButtonCustom text='Entrar'/>
+                    <p className={styles.registrar} >Não possui conta? <a href='@/Pages/Register' className={styles.registrarSe}>Registre-se</a></p>
                 </form>
             </div>
 

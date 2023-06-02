@@ -57,12 +57,14 @@
                 .esqueciSenha {
                     margin-top: 5px;
                     font-size: 0.9rem;
-                    color: $link;
+                    color: $verde-escuro;
+                    font-weight: bold;
                 }
             }
 
             .registrarSe{
-                color: $link;
+                color: $verde-escuro;
+                font-weight: bold;
             }
 
         }

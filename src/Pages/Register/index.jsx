@@ -24,7 +24,7 @@ export default function Register() {
                         <p className={styles.labelSenha} >Senha</p>
                         <InputCustom placeholder="Informe a senha" type="password" required />
                     </div>
-                    <ButtonCustom />
+                    <ButtonCustom text='Criar conta'/>
                     <p className={styles.entrar} >Já possui conta? <a className={styles.entrarSe} >Entrar</a></p>
                 </form>
             </div>
