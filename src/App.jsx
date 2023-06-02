@@ -1,9 +1,10 @@
 import './styles/GlobalStyles.scss';
-import Login from './Pages/Login/index.jsx';
+import Login from '@/Pages/Login/index.jsx';
+import Register from '@/Pages/Register';
 
 function App() {
   return (
-    <Login />
+    <Register />
   )
 }
 export default App
