@@ -57,7 +57,12 @@
                 .esqueciSenha {
                     margin-top: 5px;
                     font-size: 0.9rem;
+                    color: $link;
                 }
+            }
+
+            .registrarSe{
+                color: $link;
             }
 
         }

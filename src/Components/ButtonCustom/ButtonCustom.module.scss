@@ -1,0 +1,11 @@
+@import "@/styles/variables";
+
+.botao{
+    
+    width: 350px;
+    height: 50px;
+    background: $verde-escuro;
+    border-radius: 4px;  
+    color: white;
+    font-size: 1.2rem;
+}

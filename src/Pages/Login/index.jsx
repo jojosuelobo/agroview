@@ -3,6 +3,7 @@ import styles from './Login.module.scss'
 import logo from '@/assets/LogoSVG.svg'
 
 import InputCustom from '@/Components/InputCustom'
+import ButtonCustom from '@/Components/ButtonCustom'
 
 export default function Login() {
   return (
@@ -20,10 +21,10 @@ export default function Login() {
                     <div className={styles.senha}>
                         <p className={styles.labelSenha} >Senha</p>
                         <InputCustom placeholder="Informe a senha" type="password" required />
-                        <p className={styles.esqueciSenha} >Esqueci minha senha</p>
+                        <p className={styles.esqueciSenha}> <a> Esqueci minha senha</a></p>
                     </div>
-                    <button className={styles.botaoEnviar} type="submit">Entrar</button>
-                    <p className={styles.registrar} >Não possui conta? Registre-se</p>
+                    <ButtonCustom/>
+                    <p className={styles.registrar} >Não possui conta? <a className={styles.registrarSe} >Registre-se</a></p>
                 </form>
             </div>
 
