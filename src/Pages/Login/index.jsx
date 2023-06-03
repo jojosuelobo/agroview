@@ -4,6 +4,7 @@ import logo from '@/assets/LogoSVG.svg'
 
 import InputCustom from '@/Components/InputCustom'
 import ButtonCustom from '@/Components/ButtonCustom'
+import InputFieldCustom from '@/Components/InputFieldCustom'
 
 export default function Login() {
   return (
@@ -14,15 +15,13 @@ export default function Login() {
             <div className={styles.barraFormulario}>
                 <form className={styles.formulario} >
                     <h2>Login</h2>
-                    <div className={styles.email} >
-                        <p className={styles.labelEmail} >Email</p>
-                        <InputCustom placeholder="Endereço de email" type="email" required />
-                    </div>
+                    <InputFieldCustom text='Nome' placeholder='Informe seu nome' required />
+
                     <div className={styles.senha}>
-                        <p className={styles.labelSenha} >Senha</p>
-                        <InputCustom placeholder="Informe a senha" type="password" required />
+                        <InputFieldCustom text='Senha' placeholder='Informe sua senha' required />
                         <p className={styles.esqueciSenha}> <a> Esqueci minha senha</a></p>
-                    </div>
+                    </div> 
+                    
                     <ButtonCustom text='Entrar'/>
                     <p className={styles.registrar} >Não possui conta? <a href='@/Pages/Register' className={styles.registrarSe}>Registre-se</a></p>
                 </form>

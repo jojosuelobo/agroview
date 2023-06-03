@@ -35,34 +35,14 @@
         .formulario {
             margin-top: 5em;
 
-            .email {
-                margin: 0;
-                padding-bottom: 0.5rem;
-
-                .labelEmail {
-                    margin-bottom: 5px;
-                    font-size: 1.2rem;
-                }
+            .esqueciSenha {
+                margin-top: 5px;
+                font-size: 0.9rem;
+                color: $verde-escuro;
+                font-weight: bold;
             }
 
-            .senha {
-                margin: 0;
-                padding-bottom: 1rem;
-                font-size: 1.2rem;
-
-                .labelSenha {
-                    margin-bottom: 5px;
-                }
-
-                .esqueciSenha {
-                    margin-top: 5px;
-                    font-size: 0.9rem;
-                    color: $verde-escuro;
-                    font-weight: bold;
-                }
-            }
-
-            .registrarSe{
+            .registrarSe {
                 color: $verde-escuro;
                 font-weight: bold;
             }

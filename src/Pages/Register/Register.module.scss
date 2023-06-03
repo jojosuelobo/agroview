@@ -33,48 +33,15 @@
         }
 
         .formulario {
-
-            .nome {
-                margin: 0;
-                padding-bottom: 0.5rem;
-
-                .labelNome {
-                    margin-bottom: 5px;
-                    font-size: 1.2rem;
-                }
+            .esqueciSenha {
+                margin-top: 5px;
+                font-size: 0.9rem;
+                color: $link;
             }
-
-            .email {
-                margin: 0;
-                padding-bottom: 0.5rem;
-
-                .labelEmail {
-                    margin-bottom: 5px;
-                    font-size: 1.2rem;
-                }
-            }
-
-            .senha {
-                margin: 0;
-                padding-bottom: 3rem;
-                font-size: 1.2rem;
-
-                .labelSenha {
-                    margin-bottom: 5px;
-                }
-
-                .esqueciSenha {
-                    margin-top: 5px;
-                    font-size: 0.9rem;
-                    color: $link;
-                }
-            }
-
-            .entrarSe{
-                color: $verde-escuro;
-                font-weight: bold;
-            }
-
+        }
+        .entrarSe {
+            color: $verde-escuro;
+            font-weight: bold;
         }
 
     }

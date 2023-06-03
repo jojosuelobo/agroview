@@ -1,0 +1,11 @@
+@import "@/styles/variables";
+
+.text {
+    margin: 0;
+    padding-bottom: 0.5rem;
+
+    .label {
+        margin-bottom: 5px;
+        font-size: 1.2rem;
+    }
+}
