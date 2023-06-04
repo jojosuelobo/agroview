@@ -7,11 +7,15 @@ export default function HeaderCustom() {
   return (
     <header className={styles.header}>
       <img src={logo} className={styles.logo} alt='logo' />
-      <div className={styles.camposDeTexto}>
-
-      </div>
-      <div className={styles.botoes}>
-        {/* <ButtonCustom text='Sobre'/> */}
+      <div className={styles.campos}>
+        <div className={styles.camposDeTexto} >
+          <a className={styles.login} >Login</a>
+          <a className={styles.linguagem} >Linguagem</a>
+        </div>
+        <div className={styles.botoes}>
+          <ButtonCustom text='Sobre' />
+          <ButtonCustom text='Contato' />
+        </div>
       </div>
     </header>
   )

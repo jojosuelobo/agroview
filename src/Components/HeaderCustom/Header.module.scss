@@ -1,13 +1,44 @@
 @import '@/styles/variables';
 
-.header{
+.header {
     background-color: $verde-escuro;
-    // width: 100%;
-    // height: 30%;
+    position: relative;
+    justify-content: flex-end;
 
-    .logo{
-    width: 270px;
-    height: 80px;
+    width: 100%;
+    height: 30%;
+
+    .logo {
+        width: 270px;
+        height: 80px;
     }
 
+    .campos {
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        .camposDeTexto {
+            position: absolute;
+            top: 0;
+            right: 0;
+            .login {
+                margin-left: 2rem;
+                margin-right: 2rem;
+            }
+
+            .linguagem {
+                margin-left: 2rem;
+                margin-right: 2rem;
+            }
+        }
+
+        .botoes{
+            padding: 2rem;
+
+        }
+
+
+    }
 }
