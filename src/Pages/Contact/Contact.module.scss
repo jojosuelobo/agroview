@@ -1,1 +1,30 @@
 @import "@/styles/variables";
+
+.infos {
+    position: absolute;
+    width: 780px;
+    height: 300px;
+    margin-left: 2rem;
+
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+
+    .email {
+        color: $link;
+        margin: none;
+    }
+
+    .image {
+        position: absolute;
+        width: 900px;
+        height: 900;
+        left: -100px;
+        top: 250px;
+    }
+}
+
+.form {
+    position: absolute;
+
+}
