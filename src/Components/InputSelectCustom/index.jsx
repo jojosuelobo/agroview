@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import styles from './InputSelectCustom.module.scss'
 
 
-export default function InputSelectCustom() {
+export default function InputSelectCustom({text}) {
 
     const options = [
         { value: 'chocolate', label: 'Chocolate' },
@@ -11,7 +11,14 @@ export default function InputSelectCustom() {
         { value: 'vanilla', label: 'Vanilla' }
     ]
 
-  return (
-        <div>InputSelectCustom</div>
+    return (
+        <div className={styles.text} >
+            <p className={styles.label} >{text}</p>
+            <select className={styles.input} name={text}>
+                <option value=''></option>
+                <option value='1'>OPÇÃO 1</option>
+                <option value='2'>OPÇÃO 2</option>
+            </select>
+        </div>
     )
 }

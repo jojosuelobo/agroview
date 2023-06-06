@@ -33,7 +33,7 @@ export default function Contact() {
         <InputFieldCustom text='E-mail' /> 
 
         {/* <InputFieldCustom text='Tenho interesse em' />  */}
-        <InputSelectCustom/>
+        <InputSelectCustom text='Tenho interesse em' />
 
         <InputFieldCustom text='Observação' /> 
         <ButtonCustom text='Enviar'/>
