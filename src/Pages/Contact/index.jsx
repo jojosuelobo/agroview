@@ -25,7 +25,7 @@ export default function Contact() {
     </div>
    
     <form className={styles.form} >
-      {/* <InputFieldCustom text='Nome' /> */}
+       <InputFieldCustom text='Nome' /> *
     </form>
     
     </>

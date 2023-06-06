@@ -16,7 +16,7 @@ export default function Register() {
                     <InputFieldCustom text='Email' placeholder='Informe seu E-mail' required />
                     <InputFieldCustom text='Senha' placeholder='Digite sua senha' required />
                     <ButtonCustom text='Criar conta'/>
-                    <p className={styles.entrar} >Já possui conta? <a className={styles.entrarSe} >Entrar</a></p>
+                    <p className={styles.entrar} >Já possui conta? <a href='/login' className={styles.entrarSe} >Entrar</a></p>
                 </form>
             </div>
             <div className={styles.barraLateral}>

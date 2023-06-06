@@ -9,7 +9,7 @@ export default function HeaderCustom() {
       <img src={logo} className={styles.logo} alt='logo' />
       <div className={styles.campos}>
         <div className={styles.camposDeTexto} >
-          <a className={styles.login} >Login</a>
+          <a href='/login' className={styles.login} >Login</a>
           <a className={styles.linguagem} >Linguagem</a>
         </div>
         <div className={styles.botoes}>

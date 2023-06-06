@@ -2,8 +2,8 @@
 
 .infos {
     position: absolute;
-    width: 780px;
-    height: 300px;
+    //width: 780px;
+    //height: 300px;
     margin-left: 2rem;
 
     font-weight: 200;
@@ -26,5 +26,7 @@
 
 .form {
     position: absolute;
+    position: fixed;
+
 
 }
