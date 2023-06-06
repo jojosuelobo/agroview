@@ -1,12 +1,18 @@
 @import "@/styles/variables";
 
-.botao{
-    border-color: $verde-claro;
-    width: 350px;
-    height: 50px;
-    background: $verde-escuro;
-    border-radius: 4px;  
-    color: $verde-claro;
-    font-size: 1.2rem;
-    margin: 1.2rem 15px;
+.componente {
+    display: grid;
+    justify-content: center;
+
+    .botao {
+        border-color: $verde-claro;
+        width: 350px;
+        height: 50px;
+        background: $verde-escuro;
+        border-radius: 4px;
+        color: $verde-claro;
+        font-size: 1.2rem;
+        margin: 1.2rem 15px;
+    }
+
 }

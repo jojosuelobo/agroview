@@ -3,6 +3,8 @@ import styles from './ButtonCustom.module.scss'
 
 export default function ButtonCustom( {text} ) {
   return (
-    <button type='submit' className={styles.botao} >{text}</button>
+    <div className={styles.componente}>
+      <button type='submit' className={styles.botao} >{text}</button>
+    </div>
   )
 }

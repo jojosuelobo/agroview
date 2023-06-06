@@ -31,14 +31,11 @@ export default function Contact() {
       <form className={styles.form} >
         <InputFieldCustom text='Nome' /> 
         <InputFieldCustom text='E-mail' /> 
-
-        {/* <InputFieldCustom text='Tenho interesse em' />  */}
         <InputSelectCustom text='Tenho interesse em' />
-
-        <InputFieldCustom text='Observação' /> 
+        <InputFieldCustom text='Observação' obs='obs' /> 
         <ButtonCustom text='Enviar'/>
       </form>
-      {/* <FooterCustom/> */}
+      <FooterCustom/>
     </>
   )
 }

@@ -2,11 +2,11 @@ import React from 'react'
 import styles from './InputFieldCustom.module.scss'
 import InputCustom from '@/Components/InputCustom'
 
-export default function InputFieldCustom( {text, placeholder, required} ) {
+export default function InputFieldCustom( {text, placeholder, required, obs} ) {
     return (
         <div className={styles.text} >
             <p className={styles.label} >{text}</p>
-            <InputCustom placeholder={placeholder} type="text" required={required} />
+            <InputCustom placeholder={placeholder} type="text" required={required} obs={obs}/>
         </div>
     )
 }
