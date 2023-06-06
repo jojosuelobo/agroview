@@ -1,14 +1,18 @@
 @import "@/styles/variables";
 
 .infos {
-    position: absolute;
+    position: relative;
     //width: 780px;
     //height: 300px;
     margin-left: 2rem;
 
     font-weight: 200;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 1.3em;
+
+    h2 {
+        font-size: 1.1em;
+    }
 
     .email {
         color: $link;
@@ -16,17 +20,20 @@
     }
 
     .image {
-        position: absolute;
-        width: 900px;
-        height: 900;
-        left: -100px;
-        top: 250px;
+        position: relative;
+        width: 700px;
+        height: 700;
+        left: -8rem;
+        top: -10rem;
     }
 }
 
 .form {
+    //background-color: red;
     position: absolute;
-    position: fixed;
-
+    width: 40rem;
+    height: 35rem;
+    left: 38rem;
+    top: 7rem;
 
 }

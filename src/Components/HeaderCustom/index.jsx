@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Header.module.scss';
 import logo from '@/assets/LogoSVG.svg'
-import ButtonCustom from '@/Components/ButtonCustom';
+import ButtonRoundDarkCustom from '@/Components/ButtonRoundDarkCustom';
 
 export default function HeaderCustom() {
   return (
@@ -13,8 +13,8 @@ export default function HeaderCustom() {
           <a className={styles.linguagem} >Linguagem</a>
         </div>
         <div className={styles.botoes}>
-          <ButtonCustom text='Sobre' />
-          <ButtonCustom text='Contato' />
+          <ButtonRoundDarkCustom text='Sobre' />
+          <ButtonRoundDarkCustom text='Contato' />
         </div>
       </div>
     </header>
