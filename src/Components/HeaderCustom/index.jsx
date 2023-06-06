@@ -2,8 +2,12 @@ import React from 'react'
 import styles from './Header.module.scss';
 import logo from '@/assets/LogoSVG.svg'
 import ButtonRoundDarkCustom from '@/Components/ButtonRoundDarkCustom';
+import ButtonRoundLightCustom from '@/Components/ButtonRoundLightCustom';
+import ButtomRouded from '@/Components/ButtonRoundCustom';
 
-export default function HeaderCustom() {
+
+export default function HeaderCustom( ) {
+
   return (
     <header className={styles.header}>
       <img src={logo} className={styles.logo} alt='logo' />
@@ -13,8 +17,10 @@ export default function HeaderCustom() {
           <a className={styles.linguagem} >Linguagem</a>
         </div>
         <div className={styles.botoes}>
-          <ButtonRoundDarkCustom text='Sobre' />
-          <ButtonRoundDarkCustom text='Contato' />
+          <ButtomRouded theme='dark' text='Sobre'/>
+          <ButtomRouded theme='light' text='Contato'/>
+          {/* <ButtonRoundDarkCustom text='Sobre' />
+          <ButtonRoundLightCustom text='Contato' /> */}
         </div>
       </div>
     </header>

@@ -1,0 +1,17 @@
+@import '@/styles/variables';
+
+.botao{
+    border-color: $verde-claro;
+    background: $verde-claro;
+
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2.5rem;
+    border: 0.06rem solid;
+
+    color: $verde-escuro;
+    font-size: 1.2rem;
+    margin: 0rem 1rem;
+
+    cursor: pointer;
+}
