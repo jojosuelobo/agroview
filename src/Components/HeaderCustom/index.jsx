@@ -1,8 +1,6 @@
 import React from 'react'
 import styles from './Header.module.scss';
 import logo from '@/assets/LogoSVG.svg'
-import ButtonRoundDarkCustom from '@/Components/ButtonRoundDarkCustom';
-import ButtonRoundLightCustom from '@/Components/ButtonRoundLightCustom';
 import ButtomRouded from '@/Components/ButtonRoundCustom';
 
 
@@ -19,8 +17,6 @@ export default function HeaderCustom( ) {
         <div className={styles.botoes}>
           <ButtomRouded theme='dark' text='Sobre'/>
           <ButtomRouded theme='light' text='Contato'/>
-          {/* <ButtonRoundDarkCustom text='Sobre' />
-          <ButtonRoundLightCustom text='Contato' /> */}
         </div>
       </div>
     </header>
