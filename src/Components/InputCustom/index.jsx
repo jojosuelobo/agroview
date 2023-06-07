@@ -3,7 +3,7 @@ import styles from './InputCustom.module.scss'
 
 export default function InputCustom( {placeholder, type, required, obs}  ) {
   return (
-    <input className={ obs == 'obs' ? styles.inputObs : styles.input} 
+    <input className={styles.input} 
     placeholder={placeholder} 
     type={type} 
     required={required} /> 

@@ -9,6 +9,7 @@ import FooterCustom from '@/Components/FooterCustom'
 import InputFieldCustom from '@/Components/InputFieldCustom'
 import ButtonCustom from '@/Components/ButtonCustom'
 import InputSelectCustom from '@/Components/InputSelectCustom'
+import InputObsCustom from '@/Components/InputObsCustom'
 
 export default function Contact() {
   return (
@@ -33,7 +34,7 @@ export default function Contact() {
           <InputFieldCustom text='Nome' />
           <InputFieldCustom text='E-mail' />
           <InputSelectCustom text='Tenho interesse em' />
-          <InputFieldCustom text='Observação' obs='obs' />
+          <InputObsCustom text='Observação' />
           <ButtonCustom text='Enviar' />
         </form>
       </main>
