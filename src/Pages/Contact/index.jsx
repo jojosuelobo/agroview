@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Contact.module.scss'
 
 import logo from '@/assets/LogoSVG.svg'
-import image from '@/assets/ContactImage.svg'
+import image from '@/assets/ContactImage2.png'
 
 import HeaderCustom from '@/Components/HeaderCustom'
 import FooterCustom from '@/Components/FooterCustom'
