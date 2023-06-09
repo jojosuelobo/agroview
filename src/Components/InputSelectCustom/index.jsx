@@ -19,7 +19,7 @@ export default function InputSelectCustom({text}) {
         <div className={styles.text} >
             <p className={styles.label} >{text}</p>
             <select className={styles.input} name={text}>
-                { add.map((opcao, key) => <option value={key}> {opcao} </option>) }
+                { add.map((opcao, key) => <option value={key} key={option} > {opcao} </option>) }
             </select>
         </div>
     )
