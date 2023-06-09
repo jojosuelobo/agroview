@@ -2,9 +2,13 @@ import React from 'react'
 import styles from './Header.module.scss';
 import logo from '@/assets/LogoSVG.svg'
 import ButtomRouded from '@/Components/ButtonRoundCustom';
+import { useLocation } from 'react-router-dom';
 
 
-export default function HeaderCustom( ) {
+export default function HeaderCustom() {
+
+  const location = useLocation()
+  console.log(location.pathname)
 
   return (
     <header className={styles.header}>
@@ -15,8 +19,8 @@ export default function HeaderCustom( ) {
           <a className={styles.linguagem} >Linguagem</a>
         </div>
         <div className={styles.botoes}>
-          <ButtomRouded theme='dark' text='Sobre'/>
-          <ButtomRouded theme='light' text='Contato'/>
+          <a href='/sobre'> <ButtomRouded lightTheme={ location.pathname === '/sobre' ? true : false } text='Sobre'/> </a>
+          <a href='/contato'> <ButtomRouded lightTheme={ location.pathname === '/contato' ? true : false } text='Contato'/> </a>
         </div>
       </div>
     </header>

@@ -2,8 +2,8 @@ import React from 'react'
 import ButtonRoundDarkCustom from './ButtonRoundDarkCustom';
 import ButtonRoundLightCustom from './ButtonRoundLightCustom';
 
-export default function ButtomRouded({text, theme}) {
+export default function ButtomRouded({text, lightTheme}) {
   return (
-    theme == 'dark' ? <ButtonRoundDarkCustom text={text}/> : <ButtonRoundLightCustom text={text} />
+    lightTheme === true ? <ButtonRoundLightCustom text={text} /> : <ButtonRoundDarkCustom text={text}/>
   )
 }
