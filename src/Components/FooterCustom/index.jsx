@@ -8,7 +8,13 @@ import instagram from '@/assets/IconInstagramLight.png'
 export default function FooterCustom() {
   return (
     <footer className={styles.footer} >
-        <img src={logo} className={styles.logo}/>
+      <div className={styles.Divlogo} >
+        <img src={logo} className={styles.logo} />
+      </div>
+      <div className={styles.icons}>
+        <img src={facebook} className={styles.icon} />
+        <img src={instagram} className={styles.icon} />
+      </div>
     </footer>
   )
 }
